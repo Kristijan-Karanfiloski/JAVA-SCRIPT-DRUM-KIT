@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://consequence.net/wp-content/uploads/2022/07/Lollapalooza-Day-3-Saturday-Photos_0002s_0000_J-Cole-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 20em;
+  padding: 0.55em;
+  color: white;
+}
+
+.keys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  height: 300px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.key {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  width: 100px;
+  margin: 1rem;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  transition: all 0.07s;
+  border: 2px solid black;
+}
+
+.playing {
+  transform: scale(1.12);
+  border-color: orange;
+  box-shadow: 0 0 10px orange;
+}
+
+.sound {
+  color: rgb(224, 224, 28);
+  margin-top: 0.45rem;
+}
